@@ -11,8 +11,12 @@ published: 2021-05-01
 
 ## Introduction {#introduction}
 
-One of the most common uses for Ethereum is for a group to create a tradable token, in a sense their own currency. These tokens typically follow a standard,
-[ERC-20](/developers/docs/standards/tokens/erc-20/). This standard makes it possible to write tools, such as liquidity pools and wallets, that work with all ERC-20
-tokens. In this article we will analyze the
-[OpenZeppelin Solidity ERC20 implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol), as well as the
-[interface definition](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol).
+[Uniswap](https://uniswap.org/), which allows for decentralized trading between any two ERC-20 currencies, is one of the basic 
+building blocks for defi, decentralized finance. In this article we'll go over the [Vyper](https://vyper.readthedocs.io/en/latest/)
+source code for [Uniswap V1](https://github.com/Uniswap/uniswap-v1).
+
+### Why? Later Versions are Available {#why-v1}
+
+As I am writing this Uniswap v1.0 is already over two years old, v2.0 is the one in most common use, and 
+[v3.0 is almost ready](https://uniswap.org/blog/uniswap-v3/). Why then explain the old version? 
+Because it is simpler. 
