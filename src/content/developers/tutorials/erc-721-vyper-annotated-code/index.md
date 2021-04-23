@@ -6,7 +6,7 @@ lang: en
 sidebar: true
 tags: ["vyper", "erc-721", "python"]
 skill: beginner
-published: 2021-04-01
+published: 2021-04-23
 ---
 
 ## Introduction {#introduction}
